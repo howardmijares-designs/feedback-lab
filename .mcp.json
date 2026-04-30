@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "govai-design-system": {
+      "command": "npx",
+      "args": ["-y", "govai-mcp"]
+    }
+  }
+}

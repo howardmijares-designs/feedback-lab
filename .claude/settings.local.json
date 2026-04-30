@@ -1,0 +1,31 @@
+{
+  "permissions": {
+    "allow": [
+      "mcp__govai-design-system__list_components",
+      "mcp__govai-design-system__get_design_bundle",
+      "mcp__govai-design-system__get_component",
+      "Bash(npx --yes create-next-app@latest . --typescript --tailwind --app --no-src-dir --import-alias \"@/*\" --use-npm --no-eslint --turbopack --yes)",
+      "mcp__govai-design-system__get_design_tokens",
+      "mcp__govai-design-system__get_global_styles",
+      "Bash(npm install *)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000)",
+      "Bash(curl -s http://localhost:3000)",
+      "Bash(npx tsc *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/thank-you)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/admin/login)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" -L http://localhost:3000/admin)",
+      "Bash(curl -s http://localhost:3000/admin)",
+      "Bash(npm uninstall *)",
+      "Bash(curl -s -o /dev/null -w \"%{http_code}\" http://localhost:3000/admin)",
+      "Bash(rm -rf out)",
+      "Bash(NEXT_PUBLIC_BASE_PATH=/feedback-lab npm run build)",
+      "Bash(gh auth *)",
+      "Bash(git config *)",
+      "Bash(git init *)",
+      "Bash(git add *)",
+      "Bash(GIT_AUTHOR_NAME=\"Howard Mijares\" GIT_AUTHOR_EMAIL=\"howardmijares@gmail.com\" GIT_COMMITTER_NAME=\"Howard Mijares\" GIT_COMMITTER_EMAIL=\"howardmijares@gmail.com\" git commit -m \"AI Factory Feedback Lab — MVP demo\")",
+      "Bash(git remote *)"
+    ]
+  }
+}
