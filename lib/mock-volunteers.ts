@@ -8,6 +8,8 @@ export interface Volunteer {
   email: string;
   roleLevel: string;
   createdAt: string; // ISO
+  participations?: number;
+  notes?: string;
 }
 
 export const MOCK_VOLUNTEERS: Volunteer[] = [
@@ -18,6 +20,8 @@ export const MOCK_VOLUNTEERS: Volunteer[] = [
     email: "aisha.almazrouei@dge.gov.ae",
     roleLevel: "Senior Specialist / Senior Advisor",
     createdAt: "2026-04-22T08:14:00.000Z",
+    participations: 3,
+    notes: "Strong on policy framing — invite to Round 2.",
   },
   {
     id: "v_002",
@@ -26,6 +30,8 @@ export const MOCK_VOLUNTEERS: Volunteer[] = [
     email: "omar.hassan@dge.gov.ae",
     roleLevel: "Director",
     createdAt: "2026-04-23T11:02:00.000Z",
+    participations: 1,
+    notes: "",
   },
   {
     id: "v_003",
@@ -34,6 +40,8 @@ export const MOCK_VOLUNTEERS: Volunteer[] = [
     email: "fatima.alsuwaidi@dge.gov.ae",
     roleLevel: "Analyst / Associate",
     createdAt: "2026-04-23T15:47:00.000Z",
+    participations: 2,
+    notes: "Great at usability sessions.",
   },
   {
     id: "v_004",
@@ -50,6 +58,8 @@ export const MOCK_VOLUNTEERS: Volunteer[] = [
     email: "mariam.alshamsi@dge.gov.ae",
     roleLevel: "Specialist / Advisor",
     createdAt: "2026-04-24T13:18:00.000Z",
+    participations: 4,
+    notes: "Power user — GovGPT pilot.",
   },
   {
     id: "v_006",
